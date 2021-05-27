@@ -1,6 +1,8 @@
+from bs4 import BeautifulSoup
 from typing import List
 import pandas as pd
 from pandas.core.frame import DataFrame
+# import requests
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
@@ -14,9 +16,9 @@ class Data:
 
     def parse(self, data: dict) -> None:
         """
-        Parses a dict and adds all data as self attributes 
+        Parses a dict and adds all data as class attributes
 
-        :param data: Dictionarry containing data
+        :param data: Dictionarry containing data, containing info about house price, locations etc
         """
         for key, val in data.items():
             if val == '':
@@ -24,30 +26,33 @@ class Data:
             if (key == "id" or key == "visualisationOption" or key == "specificities"):
                 pass
             elif (key == "atticExists"):
-                setattr(self, "attic", "Yes" if val == "true" else "No")
+                self.attic = "Yes" if val == "true" else "No"
             elif (key == "basementExists"):
-                setattr(self, "basement", "Yes" if val == "true" else "No")
+                self.basement = "Yes" if val == "true" else "No"
             elif (key == "bedroom"):
-                setattr(self, "bedrooms", data[key]["count"])
+                self.bedrooms = data[key]["count"]
             elif (key == "building"):
-                setattr(self, "condition", data[key]["condition"])
-                setattr(self, "constructionYear", data[key]["constructionYear"])
+                self.condition = data[key]["condition"]
+                self.constructionYear = data[key]["constructionYear"]
             elif (key == "kitchen"):
-                setattr(self, "kitchen_type", data[key]["type"])
+                self.kitchen_type = data[key]["type"]
             elif (key == "land"):
-                setattr(self, "land_surface", data[key]["surface"])
+                self.land_surface = data[key]["surface"]
             elif (key == "outdoor"):
                 surf = data[key]["garden"]["surface"]
-                setattr(self, "garden_surface", surf if surf else 0)
-                setattr(self, "terrace", "Yes" if data[key]["terrace"]["exists"] == "true" else "No")
+
+                self.garden_surface = surf if surf else 0
+                self.terrace = "Yes" if data[key]["terrace"]["exists"] == "true" else "No"
             elif (key == "energy"):
-                setattr(self, "heating_type", data[key]["heatingType"])
+                self.heating_type = data[key]["heatingType"]
             elif (key == "parking"):
                 indoor = data[key]["parkingSpaceCount"]["indoor"]
                 outdoor = data[key]["parkingSpaceCount"]["outdoor"]
-                setattr(self, "parking_indoor", indoor if indoor  != '' else 0)
-                setattr(self, "parking_outdoor", outdoor if outdoor != '' else 0)
+
+                self.parking_indoor = indoor if indoor  != '' else 0
+                self.parking_outdoor = outdoor if outdoor != '' else 0
             else:
+                # setattr creates a class attribute with the name "key" and the value "val"
                 setattr(self, key, val)
 
 
@@ -68,7 +73,7 @@ class ImmoWebScraper:
         Cycle through all the search pages of immoweb, saving all the announcements found in a Data structure
         """
         # Cycle through every page in the search engine
-        for i in range(1, 100):
+        for i in range(1, 10):
             _URL = f"https://www.immoweb.be/en/search/house/for-sale?countries=BE&orderBy=relevance&page={i}"
             self.driver.get(_URL) #url de recherche
             assert "Immoweb" in self.driver.title
@@ -95,6 +100,10 @@ class ImmoWebScraper:
                 data = None
             if not data:
                 print("---\nData is none\n---")
+
+            ####
+            # source = requests.get(data.url)
+            # soup = Beau
 
 
     def fill_dataframe(self) -> None:

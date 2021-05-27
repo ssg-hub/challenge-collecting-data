@@ -12,6 +12,6 @@ if __name__ == "__main__":
     print(f'Scrapped all data in {time.perf_counter() - start:.4f} seconds')
     
     immoWeb.fill_dataframe()
-    print(f'Filled dataframe in {time.perf_counter() - start:.4f} seconds')
-    
     immoWeb.df.to_markdown(r'./out.md')
+
+    print(f'Filled & saved dataframe in {time.perf_counter() - start:.4f} seconds')
