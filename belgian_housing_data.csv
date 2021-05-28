@@ -1,0 +1,91 @@
+locality,type_of_property,subtype_of_property,price,number_of_rooms,area_in_sq_meters,fully_equipped_kitchen,terrace,garden,swimming_pool,state_of_the_building
+2200,apartment group,apartment group,199000 - 419000,,,True,,,,
+1785,house,town house,435000,3,249,True,True,,,just renovated
+1150,house,apartment block,750000,5,110,True,True,,,good
+1040,apartment group,apartment group,575000 - 990000,,,True,,,,
+2640,apartment group,apartment group,199000 - 515000,,,True,,,,
+4520,house,villa,309000,5,891,True,True,,,good
+1200,apartment,penthouse,369000,2,,True,True,,,as new
+1200,house,mansion,2495000,6,561,True,True,,,as new
+1470,apartment group,apartment group,263000 - 660000,,,True,,,,
+1457,house group,house group,371000 - 391000,,,True,,,,
+1070,house,town house,369000,2,148,True,True,,,good
+1050,apartment,penthouse,399000,2,,True,True,,,to renovate
+8370,apartment,flat studio,198000,0,,True,,,,good
+1160,apartment,penthouse,275000,2,,True,True,,,to be done up
+9600,house,villa,349000,4,992,True,True,,,good
+9400,house,villa,460000,4,1635,True,True,,,good
+3060,house,exceptional property,845000,4,1869,True,True,,,good
+1040,apartment,flat studio,250000,0,,True,True,,,as new
+8800,apartment group,apartment group,198080 - 258580,,,True,,,,
+1050,house,apartment block,1390000,5,150,True,True,,,as new
+1190,house,mansion,1295000,6,245,True,True,,,to renovate
+1070,apartment,duplex,265000,3,,True,,,,good
+1000,apartment group,apartment group,175000 - 455000,,,True,,,,
+1070,apartment group,apartment group,175000 - 455000,,,True,,,,
+5100,apartment group,apartment group,204736.81 - 375201.53,,,True,,,,
+2275,apartment group,apartment group,235450 - 255450,,,True,,,,
+1370,apartment group,apartment group,245000 - 285000,,,True,,,,
+1050,apartment group,apartment group,439000 - 1100000,,,True,,,,
+1160,apartment group,apartment group,439000 - 699000,,,True,,,,
+1180,apartment group,apartment group,1350000 - 1500000,,,True,,,,
+1420,apartment group,apartment group,192500 - 775000,,,True,,,,
+9420,apartment,duplex,269000,3,,True,,,,as new
+1050,apartment group,apartment group,304000 - 799000,,,True,,,,
+1160,apartment group,apartment group,304000 - 799000,,,True,,,,
+1200,apartment,penthouse,350000,2,,True,True,,,to be done up
+1180,apartment,penthouse,2150000,3,,True,True,,,as new
+9600,house,mansion,220000,3,231,True,True,,,to be done up
+1180,apartment group,apartment group,282500 - 460500,,,True,,,,
+1070,house,apartment block,399000,3,50,True,True,,,good
+1000,apartment group,apartment group,470000 - 575000,,,True,,,,
+1130,apartment group,apartment group,476000 - 476000,,,True,,,,
+1090,apartment,duplex,350000,3,,True,True,,,to be done up
+1060,apartment,triplex,420000,3,,True,,,,to be done up
+1180,apartment,ground floor,725000,3,,True,True,,,as new
+1700,house,villa,629500,4,1173,True,True,,,good
+1080,apartment,penthouse,295000,2,,True,True,,,good
+1702,apartment,penthouse,299000,3,,True,,,,good
+4257,house,bungalow,350000,2,990,True,True,,,as new
+1180,apartment group,apartment group,488000 - 585000,,,True,,,,
+1560,house,exceptional property,1045000,4,1408,True,True,,,as new
+4400,apartment,penthouse,270000,3,,True,True,,,
+4400,apartment,penthouse,270000,3,,True,True,,,
+1200,apartment,flat studio,175000,0,,True,True,,,good
+1130,apartment,penthouse,476000,3,,True,True,,,as new
+1130,apartment,penthouse,476000,3,,True,True,,,as new
+7972,house,mansion,650000,5,3350,True,True,,,good
+1420,house,villa,1125000,5,3240,True,True,,,good
+1600,apartment,duplex,290000,3,,True,True,,,good
+1080,apartment,penthouse,565000,3,,True,True,,,good
+1150,apartment,triplex,990000,6,,True,True,,,good
+1080,apartment,penthouse,220000,2,,True,True,,,as new
+5300,house,villa,270000,3,852,True,True,,,to be done up
+1082,house,mansion,360000,4,150,True,True,,,to renovate
+9600,house,mansion,128000,4,80,True,,,,to renovate
+4500,house,bungalow,195000,2,489,True,,,,as new
+1880,house,apartment block,995000,6,427,True,True,,,good
+9200,apartment,penthouse,290000,2,,True,True,,,
+4000,apartment,penthouse,450000,3,,True,True,,,as new
+4020,apartment,penthouse,450000,3,,True,True,,,as new
+1150,apartment,penthouse,665000,2,,True,True,,,as new
+1160,apartment,penthouse,665000,2,,True,True,,,as new
+1200,apartment,penthouse,665000,2,,True,True,,,as new
+1501,apartment,triplex,239000,3,,True,True,,,as new
+1700,apartment,duplex,369000,3,,True,True,,,as new
+1410,apartment,penthouse,445000,2,,True,True,,,as new
+1410,apartment,penthouse,455000,3,,True,True,,,as new
+1410,apartment,penthouse,455000,3,,True,True,,,as new
+1410,apartment,penthouse,455000,3,,True,True,,,as new
+1130,apartment,penthouse,476000,3,,True,True,,,as new
+1050,apartment,loft,665000,3,,True,True,,,just renovated
+1050,apartment,loft,685000,4,,True,True,,,just renovated
+1050,apartment,duplex,695000,4,,True,True,,,good
+1332,apartment,penthouse,940000,3,,True,True,,,as new
+1160,apartment,penthouse,998000,2,,True,True,,,as new
+1180,apartment,penthouse,1450000,3,,True,True,,,as new
+1180,apartment,penthouse,1500000,3,,True,True,,,as new
+1050,apartment,penthouse,2500000,4,,True,True,,,as new
+1050,apartment,penthouse,2500000,4,,True,True,,,as new
+1050,apartment,penthouse,2500000,4,,True,True,,,as new
+1180,apartment group,apartment group,260500 - 405500,,,True,,,,
